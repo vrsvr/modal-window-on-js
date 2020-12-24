@@ -12,8 +12,8 @@
 
 <body>
   <section class="section section--1">
-    <a href="#modal-1" class="link"><span>Open modal 1</span></a> /
-    <a href="#modal-2" class="link">Open modal 2</a>
+    <a href="#modal-1" class="link js-modal-open"><span>Open modal 1</span></a> /
+    <a href="#modal-2" class="link js-modal-open">Open modal 2</a>
   </section>
   <section class="section section--2">2</section>
   <section class="section section--3">3</section>
@@ -32,6 +32,7 @@
       </div>
       <div class="modal__dialog-body">
         <div>modal__dialog-body</div>
+        <button id="js-add-content-temp">Add content</button>
       </div>
       <div class="modal__dialog-footer">
         <button class="js-modal-close modal__dialog-footer-close-btn">Close</button>
@@ -39,7 +40,7 @@
     </div>
   </div>
 
-  <!-- <div class="modal" id="modal-2">
+  <div class="modal modal--s" id="modal-2">
     <div class="modal__dialog">
       <div class="modal__dialog-header">
         <div class="modal__dialog-header-content">
@@ -58,7 +59,7 @@
         <button class="js-modal-close btn-close">Close</button>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <script src="/js/scipt.js"></script>
 </body>
