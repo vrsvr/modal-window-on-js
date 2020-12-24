@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal window</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <section class="section section--1">
+    <a href="#modal-1" class="link"><span>Open modal 1</span></a> /
+    <a href="#modal-2" class="link">Open modal 2</a>
+  </section>
+  <section class="section section--2">2</section>
+  <section class="section section--3">3</section>
+
+  <div class="modal modal--m" id="modal-1">
+    <div class="modal__dialog">
+      <div class="modal__dialog-header">
+        <div class="modal__dialog-header-content">
+          Modal window 1
+        </div>
+        <div class="modal__dialog-header-close">
+          <button class="js-modal-close modal__dialog-header-close-btn">
+            <span>&times;</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal__dialog-body">
+        <div>modal__dialog-body</div>
+      </div>
+      <div class="modal__dialog-footer">
+        <button class="js-modal-close modal__dialog-footer-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="modal" id="modal-2">
+    <div class="modal__dialog">
+      <div class="modal__dialog-header">
+        <div class="modal__dialog-header-content">
+          Modal window 2
+        </div>
+        <div class="modal__dialog-header-close">
+          <button class="js-modal-close modal__dialog-header-close-btn">
+            <span>&times;</span>
+          </button>
+        </div>
+      </div>
+      <div class="modal__dialog-body">
+        <div>modal__dialog-body</div>
+      </div>
+      <div class="modal__dialog-footer">
+        <button class="js-modal-close btn-close">Close</button>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="/js/scipt.js"></script>
+</body>
+
+</html>
